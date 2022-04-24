@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+<header class="head-top"> <!--  This will be our top banner--> 
+    <img id="mama-logo-top" src="Images/big_mama.png">
+    <h1>This is in the header</h1>
+</header>
+
+  <div class="main-frame"> <!-- This contains everything we need. I think we'll use flexbox (?)-->
+    <div class="main-left item"> <!--Leftmost long vertical rectangle on the side-->
+            <h1>This is main left</h1>
+    </div>
+
+
+
+
+
+
+    <div class="main-center item"> <!--Centermost unit contains forms for creating new task-->
+        <h1>This is main center</h1>
+    </div>
+
+
+
+
+
+    <div id="list-box" class="main-right item">        <!--Rightmost unit to display -->
+        <h1>This is main right</h1>
+        <p>our list items will appear in this box</p>
+
+
+
+        <div class="list-box-2">         <!--Our list items will be appended here-->   
+            <p class="card card-body bg-dark listitem" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Text Toggle
+            </p>
+
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                 You have a Priority Task at Time at Place: Info
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+<script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    <div class="foot-flex">
+        <div class="bottom-logo">
+            <img id="mama-feet" src="images/Mama_White.png">
+        </div>
+
+
+    </div>
+</footer>
+</html>

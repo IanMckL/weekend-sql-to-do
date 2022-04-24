@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sweetalert": "^2.1.2"
+  },
+  "name": "weekend-sql-to-do",
+  "description": "[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanMckL/weekend-sql-to-do.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanMckL/weekend-sql-to-do/issues"
+  },
+  "homepage": "https://github.com/IanMckL/weekend-sql-to-do#readme"
+}
