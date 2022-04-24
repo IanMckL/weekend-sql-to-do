@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ 
+
+   <style>
+    @font-face { font-family: TFB; 
+                 src: url('Fonts/tfb.ttf'); 
+    
+                } 
+  
+    </style>
+    <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="client.js"></script>
+    
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAMA</title>
+</head>
+
+<body>
+
+
+
+<header class="head-top"> <!--  This will be our top banner--> 
+    <img id="mama-logo-top" src="Images/big_mama.png">
+</header>
+
+  <div class="main-frame"> <!-- This contains everything we need. I think we'll use flexbox (?)-->
+    <div class="main-left item"> <!--Leftmost long vertical rectangle on the side-->
+            <h1>MENU</h1>
+    </div>
+
+
+
+
+
+
+    <div class="main-center item"> <!--Centermost unit contains forms for creating new task-->
+        <h1>CREATE NEW TASK</h1>
+
+
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Task Name</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Location</span>
+          </div>
+          <input type="text" class="form-control bg-dark" style="color:white" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+       
+        
+        
+        
+    </div>
+
+
+
+
+    <div id="list-box"class="main-right item">        <!--Rightmost unit to display -->
+        <h1>TO-DO</h1>
+        <p>our list items will appear in this box</p>
+
+
+
+        <div class="list-box-2">         <!--Our list items will be appended here-->   
+            <p class="card card-body bg-dark listitem" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Text Toggle
+            </p>
+
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                 You have a Priority Task at Time at Place: Info
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+  <!--Popup Calcucorn Advert-->
+  <div class="modal fade img-responsive" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg-dark">
+
+
+
+        <div class="modal-body">
+            <img id="calcucorn" src="images/Calcucorn_block_ad.png">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqKL8APQ6ITs2mZGIL-qLOrqhFEDlIDz8&callback=initMap">
+</script>
+<script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+
+
+<footer>
+    <div class="foot-flex">
+        <div class="bottom-logo">
+            <img id="mama-feet" src="images/Mama_White.png">
+        </div>
+
+
+    </div>
+</footer>
+</html>

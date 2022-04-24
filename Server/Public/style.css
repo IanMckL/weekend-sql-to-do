@@ -1,0 +1,119 @@
+h1{
+    font-family: TFB;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    display: block;
+   
+    justify-content:  left;
+    height: 30vh;
+}
+
+#mama-logo-top{
+    max-height: 25vh;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+
+}
+
+
+
+
+
+/* This is the flexbox container for our items */
+.main-frame{  
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 3vh;
+    min-height: 70vh;
+}
+
+
+.item{
+margin: 10px;
+margin-top: 0px;
+padding: 10px;
+
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+border-radius: 5px;
+position: relative;
+z-index: 1;
+overflow: hidden; 
+}
+
+/* These are the items embedded within our flex container */
+.main-left{
+    display: block;
+    width: 10vw;
+    
+}
+
+.main-center{
+    width: 30vw;
+}
+
+
+.main-right{
+    display: block;
+    flex-grow:1;
+}
+
+
+
+.todo-entry{
+border-radius: 10%;
+
+
+background-color:rgb(157, 204, 204);
+
+}
+
+.listitem{
+    color:white;
+}
+
+
+
+
+.foot-flex{
+    background-color: black;
+    height: 30vh;
+}
+
+#mama-feet{
+    margin-left: 5vh;
+    margin-top: 30px;
+    max-height: 25vh;
+}
+
+body{
+    
+    background: linear-gradient(-45deg, #f5e997, #9955b7, #b12d51, #1e40a7);
+    background-size: 100% 100%; 
+
+}
+
+#calcucorn{
+    text-align: center;
+    height: 340px;
+}
+
+ 
+
+
